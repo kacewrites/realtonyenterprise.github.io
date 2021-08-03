@@ -1,0 +1,203 @@
+body{
+     background-color: black;
+     background: linear-gradient(to left, black, white);
+     margin: 0px;
+     font-family: arial;}
+
+#header{
+       background-color: blanchedalmond;
+       margin: 10px;
+       border-radius: 5px;}
+
+
+#header img{
+       margin-right: auto;
+       margin-left: auto;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       max-width: 4%;
+       max-height: 4%;
+       display: block }
+
+#header h3{
+            font-size: 50px;
+            color: skyblue;
+            margin: 0px;
+            text-align: center;}
+
+#header h3 sub{font-size: 12px;}
+
+
+
+#navbar ul{
+     padding: 5px;
+     text-align: center;
+     background-color: blanchedalmond;
+     margin: 10px;
+     border-radius: 5px; }
+
+#navbar ul li{
+      display: inline;
+      padding: 45px;
+      vertical-align: middle;}
+
+#navbar ul li a{
+     text-decoration: none;
+     padding: 5px;
+     background-color: blanchedalmond;
+     color: blue; }
+
+#navbar ul li a:hover{
+    opacity: 1.0;
+    color: blanchedalmond;
+    background-color: blue;
+    border-radius: 50%;
+    transition: 1s;
+    padding: 5px;}
+
+.submit{
+    background-color: blanchedalmond;
+    border: 1px red solid;
+    border-radius: 3px;
+    align: center;
+    padding: 3px;}
+
+.Name{
+    border-radius: 5px;}
+
+.password{
+    border-radius: 5px;}
+
+.main{
+      background-color: aquamarine;
+      opacity: 0.8;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 320px;
+      margin-right: 320px;
+      border-radius: 5px;
+      padding: 20px;}
+
+h1, h2, h3{
+      color: black;
+      text-shadow: 1px 1px red;}
+
+.sideright{
+      background-color: aquamarine;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      padding: 20px;
+      float: right;
+      width: 260px;}
+
+#theform{
+      display: table;
+      padding: 0px;
+      background-color: gray;
+      border: 2px solid red;
+      margin-right: 10px;
+      border-radius: 5px;}
+
+#theform legend{ color: white;
+                 font-size: 13px;}
+
+#theform2{
+      background-color: gray;
+      border: 2px solid red;
+      border-radius: 5px;}
+
+#theform2 legend{ color: white;
+                  font-size: 13px;}
+
+.row{
+      display: table-row;
+      padding: 2px;}
+
+.row label{
+      display: table-cell;
+      padding: 2px;
+      font-size: 12px;}
+
+.row input{
+      display: table-cell;
+      padding: 2px;}
+
+.sideright1{
+      background-color: aquamarine;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      padding: 20px;
+      float: left;
+      width: 260px;}
+
+.leftback{
+      background-color: gray;
+      border: 2px solid red;
+      padding: 20px;}
+
+.leftback h2{
+      color: white}
+.leftback ul li{color: white}
+
+.imagesidebar{
+      margin-top: 0px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      float: right;
+      width: 300px;
+      height: 300px;
+      clear: right;
+      opacity: 1.0;
+      transition: opacity 0.5s ease-in-out;}
+
+.imagesidebar:hover{
+      opacity: 0.4;}
+
+#box { width: 50px;
+      height: 15px;
+      background-color: white;
+      margin: 10px;
+      padding: 3px;}
+
+#footer{
+      background-color: blanchedalmond;
+      margin: 10px;
+      border-radius: 5px;
+      clear: both;
+      text-align: center;
+      font-size: 70%;
+      color: red;}
+
+#footer ul{
+      padding: 5px;
+      text-align: center;
+      background-color: blanchedalmond;
+      margin: 10px;
+      border-radius: 5px; }
+
+#footer ul li{
+        display: inline;}
+
+#footer ul li a{
+      text-decoration: none;
+      padding: 5px;
+      background-color: blanchedalmond;
+      color: blue; }
+
+#footer ul li a:hover{
+      opacity: 1.0;
+      color: blanchedalmond;
+      background-color: blue;}
+
+@media (max-width: 500px) {
+      .sideright{display: none;}
+      .sideright1{display: none;}
+}
